@@ -50,3 +50,8 @@ function bubble(e) {
 for (let i = 0; i < divs.length; i++) {
   divs[i].addEventListener('click', bubble);
 }
+
+// We covered a lot in this lesson. Feel free to edit index.html, to write code directly in the
+// document (just put it between <script></script> tags), and to play around with different events.
+//  It's important to practice so you can get the hang of it! You can practice adding an event listener,
+// using different event triggers, and intercepting user interactions with e.preventDefault() and e.stopPropagation().
